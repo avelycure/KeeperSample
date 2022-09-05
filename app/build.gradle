@@ -37,10 +37,7 @@ android {
 }
 
 keeper {
-    // Example: emit extra debug information during Keeper's execution.
     emitDebugInformation.set(true)
-
-    // Example: automatic R8 repo management (more below)
     automaticR8RepoManagement.set(false)
 }
 

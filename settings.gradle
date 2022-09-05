@@ -15,8 +15,3 @@ dependencyResolutionManagement {
 }
 rootProject.name = "KeeperSample2"
 include ':app'
-includeBuild('keeper-gradle-plugin') {
-    dependencySubstitution {
-        substitute module('com.slack.keeper:keeper') with project(':')
-    }
-}
